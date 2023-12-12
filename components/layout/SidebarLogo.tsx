@@ -17,8 +17,8 @@ const SidebarLogo = () => {
         flex
         items-center
         justify-center
-        hover:bg-blue-300
-        hover:bg-opacity-10
+        bg-sky-400
+        hover:bg-opacity-90
         cursor-pointer
         transition
       "

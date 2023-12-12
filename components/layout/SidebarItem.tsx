@@ -12,7 +12,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
   href,
   icon: Icon,
   onClick,
-}) => {
+}: SidebarItemProps) => {
   return (
     <div className="flex flex-row items-center">
       <div
