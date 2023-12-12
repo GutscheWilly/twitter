@@ -1,9 +1,12 @@
+import Header from '@/components/Header';
 import Layout from '@/components/Layout';
 
-export default function Home() {
+const Home = () => {
   return (
     <Layout>
-      <div className="text-blue-500">Hello world!</div>
+      <Header label="Home" />
     </Layout>
   );
-}
+};
+
+export default Home;
