@@ -1,6 +1,6 @@
 import { BsHouseFill, BsBellFill } from 'react-icons/bs';
 import { FaUser } from 'react-icons/fa';
-import { BiLogOut } from 'react-icons/bi';
+import { RiLogoutCircleLine } from 'react-icons/ri';
 import SidebarLogo from './SidebarLogo';
 import SidebarItem from './SidebarItem';
 import SidebarTweetButton from './SidebarTweetButton';
@@ -37,7 +37,11 @@ const Sidebar = () => {
               icon={item.icon}
             />
           ))}
-          <SidebarItem label="Logout" icon={BiLogOut} onClick={() => {}} />
+          <SidebarItem
+            label="Logout"
+            icon={RiLogoutCircleLine}
+            onClick={() => {}}
+          />
           <SidebarTweetButton />
         </div>
       </div>

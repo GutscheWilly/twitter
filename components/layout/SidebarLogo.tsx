@@ -14,6 +14,7 @@ const SidebarLogo = () => {
         h-14
         w-14
         p-4
+        mb-6
         flex
         items-center
         justify-center
